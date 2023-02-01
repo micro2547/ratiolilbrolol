@@ -1,20 +1,27 @@
 
 
-local nawh_table = {
-    "9835255720",
-    "9835255646",
-    "9835255659",
-    "9835255657",
-    "9835255675",
-    "9835255686",
-    "9835255688",
-    "9835255685",
-    "9835255683"
+local cat_table = {
+    "12343468715",
+    "12343469032",
+    "12343488387",
+    "12343470006",
+    "12343471973",
+    "12343473893",
+    "12343474965",
+    "12343475314",
+    "12343475792",
+    "12343476065",
+    "12343476420",
+    "12343478231",
+    "12343478548",
+    "12343479022",
+    "12343479468",
+    "12343482920",
 }
 
-local creature_table = {
+local yippee_table = {
     "12342914468",
-    "12343385174",
+    "12342915053",
     "12342915942",
     "12342916389",
     "12342916999",
@@ -245,12 +252,12 @@ end
 end)
 
 w1:Button(
-    "creature",
+    "yippee",
     function()
 _G.loop = true
 
 while _G.loop do
-for i, v in pairs(creature_table) do
+for i, v in pairs(yippee_table) do
     wait(0.07)
     local args = {
     [1] = "Update",
@@ -266,17 +273,17 @@ end
 end)
 
 w1:Button(
-    "oh nawh",
+    "post this cat",
     function()
 _G.loop = true
 
 while _G.loop do
-for i, v in pairs(nawh_table) do
+for i, v in pairs(cat_table) do
     wait(0.07)
     local args = {
     [1] = "Update",
     [2] = {
-        ["DescriptionText"] = "oh nahh bruh fr? oh naww bruh bruh fr",
+        ["DescriptionText"] = "the cat",
         ["ImageId"] = v
     }
 }
