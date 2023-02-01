@@ -19,9 +19,9 @@ local cat_table = {
     "12343482920",
 }
 
-local yippee_table = {
+local creature_table = {
     "12342914468",
-    "12342915053",
+    "12343385174",
     "12342915942",
     "12342916389",
     "12342916999",
@@ -252,12 +252,12 @@ end
 end)
 
 w1:Button(
-    "yippee",
+    "silly creature",
     function()
 _G.loop = true
 
 while _G.loop do
-for i, v in pairs(yippee_table) do
+for i, v in pairs(creature_table) do
     wait(0.07)
     local args = {
     [1] = "Update",
