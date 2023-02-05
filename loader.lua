@@ -22,29 +22,6 @@ if game.PlaceId == 6708206173 then do -- rate my avatar
         rconsoleprint('- game found: "'.. GN ..'", loading... - \n')
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/micro2547/ratiolilbrolol/main/rma.lua"))()
 end
-elseif game.PlaceId == 6542731310 then do -- dogecoin mining tycoon
-    rconsoleprint('- game found: "'.. GN ..'", loading... - \n')
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/x1mv/caracal.lua/main/dcmt.lua"))()
-    end
-elseif game.PlaceId == 6498452578 then do
-    rconsoleprint('- game found: "'.. GN ..'", loading... - \n') -- airsoft 3
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/x1mv/caracal.lua/main/airsoft3.lua"))()
-    end
-elseif game.PlaceId == 10150367093 then do
-    rconsoleprint('- game found: "'.. GN ..'", loading... - \n') -- Baking Tycoon 
-    print'Ploting up a fleeby side'
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/x1mv/caracal.lua/main/bakingtycoon.lua"))()
-    end
-elseif game.PlaceId == 8563844698 then do
-    rconsoleprint('- game found: "'.. GN ..'", loading... - \n') -- Drop The Number
-    print'Ploting up a fleeby side'
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/x1mv/caracal.lua/main/dropthenumber.lua"))()
-    end
-elseif game.PlaceId == 9872472334 then do
-    rconsoleprint('- game found: "'.. GN ..'", loading... - \n') -- Evade
-    print'Ploting up a fleeby side'
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/x1mv/caracal.lua/main/evade.lua"))()
-    end
 		else
     messagebox('no game found.', 'caracal.lua', 0)
 	rconsoleprint('- game not supported. loading universal... - \n') -- universal lol
@@ -56,4 +33,4 @@ wait(10.4)
 rconsoleprint("\n \n")
 rconsoleprint("@@BLUE@@")
 rconsoleprint("full source of the hub on my github (unobfuscated, i'm not a pussy) \n")
-rconsoleprint("github.com/x1mv \n \n \n \n \n \n \n -- made by x1mv/cykahvh --")
+rconsoleprint("github.com/micro2547 \n \n \n \n \n \n \n -- made by x1mv/cykahvh, modified by micro --")
